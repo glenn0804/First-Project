@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burger Project | Home</title>
+    <!-- Bootstrap CSS -->
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <header class="sticky-top">
+      <nav class="navbar bg-dark navbar-expand-lg p-3">
+        <div class="container">
+          <a class="navbar-brand logo text-white" href="index.html">The Burger Project</a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navlink fw-bold text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+     <!-- Hero Section -->
+    <section class="container-fluid">
+        <div class="row p-5">
+            <div class="col-md-7">
+                <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\Home main logo.png" class="img-fluid" alt="Burger Project">
+            </div>
+            <div class="col-md-5 my-auto">
+                <h1>The <i class="logo text-danger">Burger</i> that you can't resist.</h1>
+                <p>Discover our burger today, The tasiest burger in town. </p>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#shopnowmodal">Order now →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="container-fluid bg-light p-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Fresh Daily</h3>
+                <p class="text-secondary">Check out our tasiest burger.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\product 1.png" class="img-fluid product" alt="">
+                        <p></p>
+                        <small>Project Egg with Ham</small>
+                        <p class="fw-bold">Php55.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\product 2.png" class="img-fluid product" alt="">
+                        <p></p>
+                        <small>Project Pattie</small>
+                        <p class="fw-bold">Php45.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\product 3.png" class="img-fluid product" alt="">
+                        <p></p>
+                        <small>Double Patties Project </small>
+                        <p class="fw-bold">Php60.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\product 4.png" class="img-fluid product" alt="">
+                        <p></p>
+                        <small>Ultimate Project Burger</small>
+                        <p class="fw-bold">Php70.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Section -->
+    <section class="container p-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>Why Project Burger?</h1>
+                <p class="mt-4">Our burger is the most tastiest burger in town. Freshly make everyday, try it for yourself.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white p-5">
+        <div class="row p-5">
+            <div class="col-md-8 my-auto">
+                <h1 class="fw-bold">Contact Us</h1>
+                <p>contact@theprojectburger.com</p>
+                <p>(0927) 178 3845</p>
+            </div>
+            <div class="col-md-4 my-auto">
+                <p class="fw-bold mb-0"></p>
+                <p>The Burger Project</p>
+                <p class="copyright">© 2023 glennWebDev PH</p>
+                <div class="icon-wrapper">
+                    <div class="icon-container">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Burger Project\assets\footer-fb-icon.png" alt="fb logo" />
+                    </div>
+                    <div class="icon-container">
+                        <img src="C:\Users\glenn\OneDrive\Desktop\Project1\styles\Project1 Images\footer-youtube-icon.png" alt="youtube logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shop Now Modal -->
+    <div class="modal fade" id="shopnowmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body p-5">
+            <h1 class="fw-bold">Sorry, your order is no longer available.</h1>
+            <p>Please try again later.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+</body>
+</html>
